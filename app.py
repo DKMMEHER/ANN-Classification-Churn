@@ -25,7 +25,7 @@ st.title('Customer Churn PRediction')
 # User input
 geography = st.selectbox('Geography', onehot_encoder_geo.categories_[0])
 gender = st.selectbox('Gender', label_encoder_gender.classes_)
-age = st.slider('Age', 18, 92)
+age = st.slider('Age', 18, 100)
 balance = st.number_input('Balance')
 credit_score = st.number_input('Credit Score')
 estimated_salary = st.number_input('Estimated Salary')
